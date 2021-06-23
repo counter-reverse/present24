@@ -1,7 +1,9 @@
 # present24
 
 Pour compiler le programme sous linux:
-    `make all`
+    `cd build`
+    `cmake ..`
+    `cmake --build .`
 
 Pour l'executer:
-    `./out`
+    `./cmake.debug.linux.x86_64/main`

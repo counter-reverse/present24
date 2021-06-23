@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../include/values.h"
+#include "../../include/values.h"
 
 int do_substitution()
 {

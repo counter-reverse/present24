@@ -8,10 +8,10 @@ project(present24)
 add_executable(main main.c
                     src/core/permutation/permutation.c
                     src/core/substitution/substitution.c
-                    src/core/include/permutation.h
-                    src/core/include/substitution.h
-                    src/core/include/round.h
-                    src/core/include/values.h
+                    include/permutation.h
+                    include/substitution.h
+                    include/round.h
+                    include/values.h
                     )
 
 # specify the C++ standard

@@ -1,9 +1,36 @@
 #include <stdio.h>
 #include "include/permutation.h"
 
-int main() {
-    // printf() displays the string inside quotation
-    printf("Hello, World!\n");
-    do_permutation();
-   return 0;
+
+int main()
+{
+    char result;
+    char tabsortie[6];
+    char mot[100];
+    int i,j;
+    //result = substitution('d');
+    printf("%c ",result);
+    puts("\nentrer le mot a sub ");
+    scanf("%s",mot);
+    for(i=0;i<6;i++)
+    {
+
+         tabsortie[i]=substitution(mot[i]);
+
+
+    }
+ printTab(tabsortie);
+puts("");
+char resultTab[24];
+char tab[24]={'1','0','1','0','1','0','1','1','1','1','0','0','1','1','0','1','1','1','1','0','1','1','1','1'};
+
+         //resultTab=permutation(tab);
+
+
+ permutation(tab);
+
+
+//  conversion();
+
+ return 0;
 }
